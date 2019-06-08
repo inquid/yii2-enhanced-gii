@@ -24,7 +24,7 @@ echo "\tpublic function beforeSave($" . lcfirst($className) . "){
 \t}\n";?>
 
 <?php
-echo "\tpublic function afterSave($".lcfirst($className)."){
+echo "\tpublic function afterSave($" . lcfirst($className) . "){
         return $" . lcfirst($className) . ";
 \t}\n";?>
 }

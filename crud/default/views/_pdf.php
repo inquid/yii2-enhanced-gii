@@ -37,15 +37,15 @@ $this->params['breadcrumbs'][] = $this->title;
 if ($tableSchema === false) {
     foreach ($generator->getColumnNames() as $name) {
         if (++$count < 6) {
-            echo "            '".$name."',\n";
+            echo "            '" . $name . "',\n";
         } else {
-            echo "            // '".$name."',\n";
+            echo "            // '" . $name . "',\n";
         }
     }
-}else{
-    foreach($tableSchema->getColumnNames() as $attribute){
-        if(!in_array($attribute, $generator->skippedColumns)) {
-            echo '        ' .$generator->generateGridViewField($attribute,$fk, $tableSchema);
+} else {
+    foreach ($tableSchema->getColumnNames() as $attribute) {
+        if (!in_array($attribute, $generator->skippedColumns)) {
+            echo '        ' . $generator->generateGridViewField($attribute, $fk, $tableSchema);
         }
     }
 }?>
@@ -69,14 +69,14 @@ if($provider<?= $rel[1] ?>->totalCount){
         $fkRel = $generator->generateFK($relTableSchema);
         if ($relTableSchema === false) {
             foreach ($relTableSchema->getColumnNames() as $attribute) {
-                if (!in_array($attribute, $generator->skippedColumns) && $attribute != $relations[5]){
-                    echo "        '".$attribute."',\n";
+                if (!in_array($attribute, $generator->skippedColumns) && $attribute != $relations[5]) {
+                    echo "        '" . $attribute . "',\n";
                 }
             }
-        }else {
-            foreach ($relTableSchema->getColumnNames() as $attribute){
-                if (!in_array($attribute, $generator->skippedColumns)){
-                    echo '        '.$generator->generateGridViewField($attribute, $fkRel, $relTableSchema);
+        } else {
+            foreach ($relTableSchema->getColumnNames() as $attribute) {
+                if (!in_array($attribute, $generator->skippedColumns)) {
+                    echo '        ' . $generator->generateGridViewField($attribute, $fkRel, $relTableSchema);
                 }
             }
         }
