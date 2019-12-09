@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "172f61e42183ba87220646bb1e4b0579",
+    "content-hash": "d162f4da90a4906a7ae27e9116ce2f25",
     "packages": [
         {
             "name": "bizley/contenttools",
@@ -6150,21 +6150,21 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156"
+                "reference": "55dc9010920405c6fcf440667ab70a6a6f9a2ac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1bdf24f065975594f6a117f0f1f6cabf1333b156",
-                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/55dc9010920405c6fcf440667ab70a6a6f9a2ac7",
+                "reference": "55dc9010920405c6fcf440667ab70a6a6f9a2ac7",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.4 || ^7.0",
-                "phpoption/phpoption": "^1.5",
+                "php": "^5.5.9 || ^7.0",
+                "phpoption/phpoption": "^1.6",
                 "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
@@ -6173,7 +6173,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.6-dev"
+                    "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
@@ -6203,7 +6203,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-09-10T21:37:39+00:00"
+            "time": "2019-12-08T15:09:05+00:00"
         },
         {
             "name": "yii2mod/yii2-editable",
