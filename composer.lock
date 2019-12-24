@@ -1870,16 +1870,16 @@
         },
         {
             "name": "inquid/yii2-relation-traits",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inquid/yii2-relation-traits.git",
-                "reference": "8149499fb4dc168c13bb1b97ebc23b6f570c425a"
+                "reference": "1751869f3c79c0428f94a1a68882c47b1841668e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inquid/yii2-relation-traits/zipball/8149499fb4dc168c13bb1b97ebc23b6f570c425a",
-                "reference": "8149499fb4dc168c13bb1b97ebc23b6f570c425a",
+                "url": "https://api.github.com/repos/inquid/yii2-relation-traits/zipball/1751869f3c79c0428f94a1a68882c47b1841668e",
+                "reference": "1751869f3c79c0428f94a1a68882c47b1841668e",
                 "shasum": ""
             },
             "require": {
@@ -1898,16 +1898,22 @@
             ],
             "authors": [
                 {
+                    "name": "Luis Gonzalez",
+                    "email": "contact@inquid.co"
+                },
+                {
                     "name": "Yohanes Candrajaya",
                     "email": "moo.tensai@gmail.com"
                 }
             ],
-            "description": "Yii 2 Models load with relation, & transaction save with relation",
-            "homepage": "http://github.com/mootensai/yii2-relation-trait",
+            "description": "Yii 2 Models load with relation, & transaction save with relation for MongoDB",
+            "homepage": "http://github.com/inquid/yii2-mongo-relation-trait",
             "keywords": [
                 "load",
                 "loadall",
                 "loadwithrelation",
+                "mongo",
+                "mongodb",
                 "related",
                 "relation",
                 "save",
@@ -1916,7 +1922,7 @@
                 "transaction",
                 "yii2"
             ],
-            "time": "2017-10-18T04:48:35+00:00"
+            "time": "2019-12-24T07:44:02+00:00"
         },
         {
             "name": "inquid/yii2-sweetalert2-widget",
