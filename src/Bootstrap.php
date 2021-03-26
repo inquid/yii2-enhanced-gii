@@ -36,10 +36,7 @@ class Bootstrap implements BootstrapInterface
                         'mongo'   => '@vendor/inquid/yii2-enhanced-gii/src/model/mongo',
                     ],
                 ];
-                $app->getModule('gii')->generators['enhanced-gii-crud']['class'] = 'inquid\enhancedgii\crud\Generator';
                 $app->getModule('gii')->generators['enhanced-gii-module'] = 'inquid\enhancedgii\module\Generator';
-                $app->getModule('gii')->generators['enhanced-gii-testsgenerator'] = 'inquid\enhancedgii\testsgenerator\Generator';
-                $app->getModule('gii')->generators['enhanced-gii-migration'] = 'inquid\enhancedgii\migration\Generator';
             }
         }
     }
