@@ -28,35 +28,15 @@
   "require": {
     "php": ">=7.1.0",
     "ext-zip": "*",
+    "yiisoft/yii2": "~2.0.14",
     "yiisoft/yii2-faker": "~2.0.0",
     "yiisoft/yii2-gii": "~2.1.0",
-    "mootensai/yii2-jsblock": "*",
-    "mootensai/yii2-optimistic-lock-validator": "*",
-    "kartik-v/yii2-builder": "dev-master",
-    "kartik-v/yii2-grid": "*",
-    "kartik-v/yii2-widgets": "*",
-    "kartik-v/yii2-tree-manager": "dev-master",
-    "kartik-v/yii2-tabs-x": "*",
-    "kartik-v/yii2-datecontrol": "@dev",
     "faryshta/yii2-disable-submit-buttons": "*",
     "inquid/yii2-relation-traits": "dev-master",
     "inquid/yii2-uuid-behavior": "dev-master",
-    "inquid/yii2-vue": "*",
-    "inquid/yii2-fpdf": "*",
-    "inquid/yii-reports": "dev-master",
-    "inquid/yii2-sweetalert2-widget": "dev-master",
-    "yiisoft/yii2-apidoc": "~2.1.0",
-    "yiidoc/yii2-redactor": "*",
-    "mikehaertl/php-shellcommand": "dev-master",
-    "drsdre/yii2-wizardwidget": "*",
-    "bizley/contenttools": "^1.2",
-    "yii2mod/yii2-editable": "*",
-    "mohorev/yii2-upload-behavior": "*",
-    "vlucas/phpdotenv": "^4.1",
     "mongosoft/yii2-mongodate-behavior": "*"
   },
   "require-dev": {
-    "yiisoft/yii2": "*",
     "yiisoft/yii2-coding-standards": "~2.0",
     "phpunit/phpunit": "<9"
   },
@@ -79,5 +59,16 @@
   "extra": {
     "bootstrap": "inquid\\enhancedgii\\Bootstrap",
     "tests": "inquid\\tests\\Bootstrap"
-  }
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }

@@ -9,8 +9,6 @@
 
 namespace inquid\tests;
 
-use Dotenv\Dotenv;
-use Dotenv\Repository\RepositoryBuilder;
 use PHPUnit\Framework\TestCase as PHPUnitBaseTestCase;
 use Yii;
 use yii\db\Connection;
@@ -28,7 +26,6 @@ abstract class TestCase extends PHPUnitBaseTestCase
 
     protected function setUp(): void
     {
-        $this->env = Dotenv::create(RepositoryBuilder::create()->make(), '.')->load();
         parent::setUp();
     }
 

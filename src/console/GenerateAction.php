@@ -8,6 +8,8 @@
 
 namespace inquid\enhancedgii\console;
 
+use yii\base\Action;
+use yii\gii\Generator;
 use yii\helpers\Console;
 
 /**
@@ -15,10 +17,10 @@ use yii\helpers\Console;
  *
  * @since 2.0
  */
-class GenerateAction extends \yii\base\Action
+class GenerateAction extends Action
 {
     /**
-     * @var \yii\gii\Generator
+     * @var Generator
      */
     public $generator;
     /**
