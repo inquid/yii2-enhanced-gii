@@ -22,12 +22,12 @@ use yii\helpers\Inflector;
 /**
  * Generates CRUD.
  *
- * @property array $columnNames Model column names. This property is read-only.
- * @property string $controllerID The controller ID (without the module ID prefix). This property is
- * read-only.
- * @property array $searchAttributes Searchable attributes. This property is read-only.
- * @property string $viewPath The controller view path. This property is read-only.
- * @property TableSchema $tableSchema The TableSchema of this model.
+ * @property array       $columnNames      Model column names. This property is read-only.
+ * @property string      $controllerID     The controller ID (without the module ID prefix). This property is
+ *                                         read-only.
+ * @property array       $searchAttributes Searchable attributes. This property is read-only.
+ * @property string      $viewPath         The controller view path. This property is read-only.
+ * @property TableSchema $tableSchema      The TableSchema of this model.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  *

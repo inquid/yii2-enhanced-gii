@@ -10,7 +10,6 @@ declare(strict_types=1);
 
 namespace inquid\enhancedgii\utils;
 
-use Yii;
 use yii\base\UserException;
 use yii\db\Exception;
 
@@ -45,7 +44,7 @@ class DatabaseUtils
                      WHERE key_param='database_nickname';"
             )
                 ->queryScalar();
-            echo 'dbResult -> ' . $result;
+            echo 'dbResult -> '.$result;
 
             $result = $result ?? 'DATABASE nickname invalid';
         } catch (Exception $e) {

@@ -17,8 +17,8 @@ use yii\db\TableSchema;
 use yii\helpers\Inflector;
 
 /**
- * @property array $columnNames
- * @property string[] $schemaNames
+ * @property array                      $columnNames
+ * @property string[]                   $schemaNames
  * @property \yii\base\Component|object $dbConnection
  */
 abstract class BaseGenerator extends \yii\gii\Generator
